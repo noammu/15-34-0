@@ -1,11 +1,13 @@
 import styles from './App.module.scss';
 import ViteSvg from './assets/vite.svg';
 import TypescriptSvg from './assets/typescript.svg';
+import { ThirdParty } from './components/third-party/third-party';
+import classNames from 'classnames';
 
 function App() {
     return (
         <div className={styles.App}>
-            <h2>Welcome to your App Component 🎉</h2>
+            <h2 className="ui container">Welcome to your App Component 🎉</h2>
             <span>
                 Double click to edit App component
                 <br />
@@ -24,6 +26,7 @@ function App() {
                 <img src={TypescriptSvg} width="12" />
                 Visit vitejs.dev to learn more.
             </p>
+            <ThirdParty />
         </div>
     );
 }

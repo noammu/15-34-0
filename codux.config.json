@@ -2,8 +2,12 @@
   "$schema": "https://wixplosives.github.io/codux-config-schema/codux.config.schema.json",
   "boardGlobalSetup": "./src/_codux/boards-global-setup.ts",
   "componentsDiscovery": {
-    "include": ["src/**"],
-    "exclude": ["src/_codux/component-templates/**"]
+    "include": [
+      "src/**"
+    ],
+    "exclude": [
+      "src/_codux/component-templates/**"
+    ]
   },
   "newComponent": {
     "componentsPath": "src/components",
@@ -17,11 +21,20 @@
       "title": "Install",
       "description": "Run install",
       "command": "npm i",
-      "trigger": ["checkout", "pull", "setup"]
+      "trigger": [
+        "checkout",
+        "pull",
+        "setup"
+      ]
     }
   },
   "styling": {
     "solution": "scss modules"
   },
-  "svgLoader": "both"
+  "svgLoader": "both",
+  "addPanel": {
+    "assets": [
+      "@codux-boards/react-semantic"
+    ]
+  }
 }

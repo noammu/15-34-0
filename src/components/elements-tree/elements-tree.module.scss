@@ -1,0 +1,30 @@
+.root {
+}
+.a1 {
+  height: 75px;
+  font-family: Monaco, monospace;
+}
+
+@media (width < 500px){
+  .root{
+    background-color: red;
+  }
+}
+
+@media (500px <= width < 650px){
+  .root{
+    background-color: gold;
+  }
+}
+
+@media (650px <= width){
+  .root{
+    background-color: violet;
+  }
+}
+
+// @media (max-width: 1000px) {
+//   .root{
+//     background-color: gold;
+//   }
+// }
