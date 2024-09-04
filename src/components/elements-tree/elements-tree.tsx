@@ -20,7 +20,7 @@ export const ElementsTree = ({ className }: ElementsTreeProps) => {
                 Linasdasd asd ask
             </a>
             ElementsTree
-            <p>This is a paragraph.,mn,mn,m</p>
+            <p className={styles.p1}>This is a paragraph.,mn,mn,m</p>
             <p>This is a paragraphuhig jhgkj lgkhj lkg lkhg .</p>
             <button>Button</button>
             <img alt="" src={PikachuPng} height="75" />

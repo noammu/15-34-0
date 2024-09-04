@@ -5,8 +5,6 @@ export default createBoard({
     name: 'ElementsTree',
     Board: () => <ElementsTree />,
     isSnippet: true,
-    environmentProps: {
-        windowWidth: 1024,
-        windowHeight: 768,
-    },
+    environmentProps: { windowHeight: 768, windowWidth: 1024 },
+    tags: ['taggy', 'elemy', 'tree', 'tree not to eat'],
 });

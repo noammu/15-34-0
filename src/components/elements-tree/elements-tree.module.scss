@@ -5,20 +5,20 @@
   font-family: Monaco, monospace;
 }
 
-@media (width < 500px){
-  .root{
+@media (width < 500px) {
+  .root {
     background-color: red;
   }
 }
 
-@media (500px <= width < 650px){
-  .root{
+@media (500px <= width < 650px) {
+  .root {
     background-color: gold;
   }
 }
 
-@media (650px <= width){
-  .root{
+@media (650px <= width) {
+  .root {
     background-color: violet;
   }
 }
@@ -28,3 +28,14 @@
 //     background-color: gold;
 //   }
 // }
+.p1 {
+  width: 55px;
+  height: 55px;
+  display: block;
+  overflow: visible;
+  margin: 5px;
+  padding: 7px;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: cyan;
+}

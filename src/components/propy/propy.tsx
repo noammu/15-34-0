@@ -17,6 +17,15 @@ export interface PropyProps {
 export const numnum = 4444;
 export const noomnoom = 55555;
 
-export const Propy = ({ className }: PropyProps) => {
-    return <div className={classNames(styles.root, className)}>Propy</div>;
+export const Propy = ({ className, numy, objy, stringy }: PropyProps) => {
+    return (
+        <div className={classNames(styles.root, className)}>
+            <div>{numy}</div>
+            Propy
+            <div>{stringy}</div>
+            <div>
+                {objy.name} age is {objy.age}
+            </div>
+        </div>
+    );
 };

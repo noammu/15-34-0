@@ -1,5 +1,5 @@
 import { createBoard } from '@wixc3/react-board';
-import { numnum, noomnoom, Propy } from '../../../components/propy/propy';
+import { Propy, numnum } from '../../../components/propy/propy';
 
 export interface Person {
     name: string;
@@ -17,6 +17,6 @@ const str3 = 'str3';
 
 export default createBoard({
     name: 'Propy',
-    Board: () => <Propy numy={numnum} stringy={str2} objy={tedLasso} />,
+    Board: () => <Propy numy={numnum} stringy={str1} objy={tedLasso} />,
     isSnippet: true,
 });

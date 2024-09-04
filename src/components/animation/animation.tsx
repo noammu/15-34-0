@@ -1,7 +1,7 @@
 import classNames from 'classnames';
-import styles from './newew.module.scss';
+import styles from './animation.module.scss';
 
-export interface NewewProps {
+export interface AnimationProps {
     className?: string;
 }
 
@@ -9,10 +9,10 @@ export interface NewewProps {
  * This component was created using Codux's Default new component template.
  * To create custom component templates, see https://help.codux.com/kb/en/article/kb16522
  */
-export const Newew = ({ className }: NewewProps) => {
+export const Animation = ({ className }: AnimationProps) => {
     return (
         <div className={classNames(styles.root, className)}>
-            <a>Textlkjfd g lkhjgv klhdsldfhaslkhHK G</a>
+            <div className={styles.animation}>Animation</div>
         </div>
     );
 };

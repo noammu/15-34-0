@@ -26,6 +26,16 @@
         "pull",
         "setup"
       ]
+    },
+    "clean": {
+      "title": "Clean",
+      "description": "Cleaning installed packages and un-staged changes",
+      "command": "git clean -fdx"
+    },
+    "reset": {
+      "title": "Reset",
+      "description": "Cleaning the repository and installing packages",
+      "run": ["clean", "install"]
     }
   },
   "styling": {

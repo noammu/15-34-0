@@ -1,0 +1,38 @@
+.root {
+  height: 100vh;
+  width: 100vw;
+  font-size: 1.5rem;
+}
+
+.animation {
+  width: 100px;
+  animation: upDownLeftRight 20s linear infinite;
+}
+
+@keyframes upDownLeftRight {
+  0% {
+    transform: translate(0);
+    
+  }
+  25% {
+    transform: translate(90vw, 90vh);
+  }
+  50% {
+    transform: translate(0, 90vh);
+  }
+  75% {
+    transform: translate(90vw, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes leftRight {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100vh);
+  }
+}

@@ -6,24 +6,25 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "ari": "npm run build && npm run dev"
   },
   "dependencies": {
     "classnames": "^2.5.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
-    "semantic-ui-react": "^2.1.5",
-    "semantic-ui-css": "^2.5.0"
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.5"
   },
   "devDependencies": {
+    "@codux-boards/react-semantic": "1.0.7",
     "@types/react": "^18.3.4",
     "@types/react-dom": "^18.3.0",
     "@vitejs/plugin-react": "^4.3.1",
-    "@wixc3/react-board": "^4.0.0",
+    "@wixc3/react-board": "^2.6.0",
     "sass": "^1.77.8",
     "typescript": "^5.5.4",
     "vite": "^5.4.2",
-    "vite-plugin-svgr": "^4.2.0",
-    "@codux-boards/react-semantic": "1.0.7"
+    "vite-plugin-svgr": "^4.2.0"
   }
 }

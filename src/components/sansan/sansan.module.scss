@@ -1,0 +1,33 @@
+.root {
+  width: 666px;
+  height: 98vh;
+}
+.div1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.div2 {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 9px 2em;
+}
+.div3 {
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 15px;
+  margin-right: 2%;
+  margin-left: 2%;
+  padding: 13px;
+}
+.header1 {
+  font-weight: 900;
+  font-style: italic;
+  color: gold;
+  text-align: center;
+}
+.p1 {
+  background-color: cyan;
+  border: 3px solid black;
+}
